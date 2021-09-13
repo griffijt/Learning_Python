@@ -1,3 +1,7 @@
+# Exercise from IBM PY0101EN on edX
+
+# Original Author: Azim Hirjani at IBM
+
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -10,7 +14,7 @@ from mplfinance.original_flavor import candlestick2_ohlc
 cg = CoinGeckoAPI()
 
 # request bitcoin data from CoinGecko API
-bitcoin_data = cg.get_coin_market_chart_by_id(id='bitcoin', vs_currency='usd', days=30)
+bitcoin_data = cg.get_coin_market_chart_by_id(id='bitcoin', vs_currency='usd', days=90)
 
 # save price data
 bitcoin_price_data = bitcoin_data['prices']
