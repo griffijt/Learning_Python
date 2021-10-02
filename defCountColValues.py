@@ -19,7 +19,7 @@ tweets_df = pd.read_csv('Sentiment.csv')
 # Define count_entries()
 def count_entries(df, *args):
     """Return a dictionary with counts of 
-    Candidates as value for each key."""
+    column values for each key."""
 
     # Initialize an empty dictionary: cols_count
     cols_count = {}
