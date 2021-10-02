@@ -1,7 +1,7 @@
 """
 From: DataCamp Python Data Science Toolbox (Part 1), Writing your own functions
 Author: Hugo Bowne-Anderson
-Source: https://www.datacamp.com/courses/intermediate-python
+Source: https://campus.datacamp.com/courses/python-data-science-toolbox-part-1/writing-your-own-functions?ex=13
 
 Modified by: Justin Griffith
 
