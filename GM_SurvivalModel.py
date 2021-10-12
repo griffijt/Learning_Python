@@ -26,6 +26,7 @@ Notes:
 import numpy as np
 import pandas as pd
 
+#----------Define Functions----------
 def vt(i, t):
     '''Present value of $1 received at time t.
     
@@ -212,6 +213,7 @@ i = 0.05        # interest rate
 v = 1/(1+i)     # discount factor
 d = i*v         # equivalent discount rate
 
+#----------Build SUSM----------
 #-----Age and Number of Lives-----
 # initialize life table as list
 X = []
